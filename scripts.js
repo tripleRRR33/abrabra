@@ -3,7 +3,13 @@ fetch('questions.json')
     .then(response => response.json())
     .then(data => {
         questions = data.sort(() => Math.random() - 0.5); // Mélange des questions
-    });
+        if (questions.length > 0) {
+            document.getElementById('start-quiz-button').classList.remove('hidden');
+        } else {
+            console.error("Le fichier questions.json est vide ou mal formaté.");
+        }
+    })
+    .catch(error => console.error("Erreur lors du chargement des questions :", error));
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -34,27 +40,31 @@ function showQuestion() {
     timerContainer.classList.remove('low-time');
 
     const currentQuestion = questions[currentQuestionIndex];
-    questionContainer.textContent = currentQuestion.question;
-    answersContainer.innerHTML = '';
-    explanationElement.classList.add('hidden');
+    if (currentQuestion) {
+        questionContainer.textContent = currentQuestion.question;
+        answersContainer.innerHTML = '';
+        explanationElement.classList.add('hidden');
 
-    currentQuestion.answers.forEach((answer) => {
-        const button = document.createElement('button');
-        button.textContent = answer.text;
-        button.addEventListener('click', () => selectAnswer(answer.correct, currentQuestion.explanation));
-        answersContainer.appendChild(button);
-    });
+        currentQuestion.answers.forEach((answer) => {
+            const button = document.createElement('button');
+            button.textContent = answer.text;
+            button.addEventListener('click', () => selectAnswer(answer.correct, currentQuestion.explanation));
+            answersContainer.appendChild(button);
+        });
 
-    timer = setInterval(() => {
-        timerElement.textContent--;
-        if (timerElement.textContent <= 5) {
-            timerContainer.classList.add('low-time');
-        }
-        if (timerElement.textContent == 0) {
-            clearInterval(timer);
-            showExplanation(false, "Temps écoulé !");
-        }
-    }, 1000);
+        timer = setInterval(() => {
+            timerElement.textContent--;
+            if (timerElement.textContent <= 5) {
+                timerContainer.classList.add('low-time');
+            }
+            if (timerElement.textContent == 0) {
+                clearInterval(timer);
+                showExplanation(false, "Temps écoulé !");
+            }
+        }, 1000);
+    } else {
+        console.error("Aucune question à afficher");
+    }
 }
 
 function selectAnswer(isCorrect, explanation) {
