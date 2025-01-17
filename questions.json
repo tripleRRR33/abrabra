@@ -7,17 +7,196 @@
             { "text": "Autant en emporte le vent", "correct": true },
             { "text": "Titanic", "correct": false }
         ],
-        "explanation": "Autant en emporte le vent reste le plus rentable en ajustant à l'inflation."
+        "explanation": "Bien qu’Avatar ait été un succès colossal, Autant en emporte le vent reste le plus rentable en ajustant à l'inflation."
     },
     {
-        "question": "Quel artiste a popularisé le moonwalk ?",
+        "question": "Quel film a introduit le personnage de Thanos dans l'univers cinématographique Marvel ?",
+        "answers": [
+            { "text": "Les Gardiens de la Galaxie", "correct": false },
+            { "text": "Avengers: Infinity War", "correct": false },
+            { "text": "Les Avengers", "correct": true },
+            { "text": "Thor: Le Monde des ténèbres", "correct": false }
+        ],
+        "explanation": "Thanos apparaît brièvement dans la scène post-générique de Les Avengers, annonçant son rôle futur."
+    },
+    {
+        "question": "Quel est le groupe légendaire qui a écrit Bohemian Rhapsody ?",
+        "answers": [
+            { "text": "The Beatles", "correct": false },
+            { "text": "Queen", "correct": true },
+            { "text": "Pink Floyd", "correct": false },
+            { "text": "The Rolling Stones", "correct": false }
+        ],
+        "explanation": "Cette chanson épique, écrite par Freddie Mercury, est devenue un classique intemporel."
+    },
+    {
+        "question": "En quelle année Michael Jackson a-t-il sorti son album Thriller ?",
+        "answers": [
+            { "text": "1980", "correct": false },
+            { "text": "1982", "correct": true },
+            { "text": "1984", "correct": false },
+            { "text": "1986", "correct": false }
+        ],
+        "explanation": "Thriller reste l'album le plus vendu de tous les temps, solidifiant Michael Jackson comme le roi de la pop."
+    },
+    {
+        "question": "Quel est le jeu vidéo le plus vendu de tous les temps ?",
+        "answers": [
+            { "text": "Tetris", "correct": false },
+            { "text": "Minecraft", "correct": true },
+            { "text": "GTA V", "correct": false },
+            { "text": "Fortnite", "correct": false }
+        ],
+        "explanation": "Avec plus de 200 millions d'exemplaires vendus, Minecraft est le jeu vidéo le plus vendu de tous les temps."
+    },
+    {
+        "question": "Dans quelle série de jeux vidéo le personnage de Link doit-il sauver la princesse Zelda ?",
+        "answers": [
+            { "text": "Final Fantasy", "correct": false },
+            { "text": "The Legend of Zelda", "correct": true },
+            { "text": "Dragon Quest", "correct": false },
+            { "text": "Fire Emblem", "correct": false }
+        ],
+        "explanation": "The Legend of Zelda combine aventure, exploration et puzzles dans une quête pour sauver Hyrule."
+    },
+    {
+        "question": "Quelle série télévisée a popularisé l’expression 'Winter is Coming' ?",
+        "answers": [
+            { "text": "Breaking Bad", "correct": false },
+            { "text": "Game of Thrones", "correct": true },
+            { "text": "The Witcher", "correct": false },
+            { "text": "Vikings", "correct": false }
+        ],
+        "explanation": "'Winter is Coming' est une phrase emblématique de Game of Thrones."
+    },
+    {
+        "question": "Quel personnage de Friends a un travail de scientifique en biologie ?",
+        "answers": [
+            { "text": "Chandler Bing", "correct": false },
+            { "text": "Ross Geller", "correct": true },
+            { "text": "Joey Tribbiani", "correct": false },
+            { "text": "Monica Geller", "correct": false }
+        ],
+        "explanation": "Ross Geller est paléontologue et l'un des personnages principaux de Friends."
+    },
+    {
+        "question": "Qui est le créateur de Superman ?",
+        "answers": [
+            { "text": "Stan Lee", "correct": false },
+            { "text": "Jack Kirby", "correct": false },
+            { "text": "Jerry Siegel et Joe Shuster", "correct": true },
+            { "text": "Bob Kane", "correct": false }
+        ],
+        "explanation": "Superman, créé en 1938, est l'un des super-héros les plus emblématiques de l'histoire."
+    },
+    {
+        "question": "Quel acteur incarne Jack Sparrow dans Pirates des Caraïbes ?",
+        "answers": [
+            { "text": "Orlando Bloom", "correct": false },
+            { "text": "Johnny Depp", "correct": true },
+            { "text": "Geoffrey Rush", "correct": false },
+            { "text": "Keira Knightley", "correct": false }
+        ],
+        "explanation": "Johnny Depp a marqué ce rôle avec son style excentrique et son jeu unique."
+    },
+    {
+        "question": "Quelle franchise de jeu vidéo est célèbre pour les personnages Mario et Luigi ?",
+        "answers": [
+            { "text": "Donkey Kong", "correct": false },
+            { "text": "Super Mario", "correct": true },
+            { "text": "Kirby", "correct": false },
+            { "text": "Metroid", "correct": false }
+        ],
+        "explanation": "Super Mario est une franchise emblématique de Nintendo qui a marqué l'histoire du jeu vidéo."
+    },
+    {
+        "question": "Quelle série littéraire met en scène un anneau magique et des créatures mythiques ?",
+        "answers": [
+            { "text": "Harry Potter", "correct": false },
+            { "text": "Le Seigneur des Anneaux", "correct": true },
+            { "text": "Narnia", "correct": false },
+            { "text": "Percy Jackson", "correct": false }
+        ],
+        "explanation": "Le Seigneur des Anneaux est une trilogie fantastique écrite par J.R.R. Tolkien."
+    },
+    {
+        "question": "Qui a popularisé la danse du moonwalk ?",
         "answers": [
             { "text": "Elvis Presley", "correct": false },
             { "text": "Michael Jackson", "correct": true },
             { "text": "Prince", "correct": false },
             { "text": "James Brown", "correct": false }
         ],
-        "explanation": "Michael Jackson a rendu le moonwalk célèbre en 1983."
+        "explanation": "Michael Jackson a rendu le moonwalk célèbre lors d'une performance en 1983."
+    },
+    {
+        "question": "Quelle série télévisée met en scène Walter White et Jesse Pinkman ?",
+        "answers": [
+            { "text": "Breaking Bad", "correct": true },
+            { "text": "Better Call Saul", "correct": false },
+            { "text": "Mad Men", "correct": false },
+            { "text": "The Sopranos", "correct": false }
+        ],
+        "explanation": "Breaking Bad suit la transformation de Walter White en un baron de la drogue."
+    },
+    {
+        "question": "Quel artiste a chanté la célèbre chanson Like a Rolling Stone ?",
+        "answers": [
+            { "text": "Bob Dylan", "correct": true },
+            { "text": "Elvis Presley", "correct": false },
+            { "text": "Johnny Cash", "correct": false },
+            { "text": "Bruce Springsteen", "correct": false }
+        ],
+        "explanation": "Bob Dylan est l'un des artistes les plus influents du 20e siècle, connu pour ses paroles poétiques."
+    },
+    {
+        "question": "Quel jeu de rôle est centré sur le personnage Kratos et la mythologie nordique ?",
+        "answers": [
+            { "text": "God of War", "correct": true },
+            { "text": "The Witcher", "correct": false },
+            { "text": "Skyrim", "correct": false },
+            { "text": "Assassin's Creed", "correct": false }
+        ],
+        "explanation": "God of War est un jeu acclamé qui explore la mythologie nordique à travers Kratos."
+    },
+    {
+        "question": "Quelle série à succès a introduit des personnages comme Eleven et Mike Wheeler ?",
+        "answers": [
+            { "text": "The Witcher", "correct": false },
+            { "text": "Stranger Things", "correct": true },
+            { "text": "Dark", "correct": false },
+            { "text": "Black Mirror", "correct": false }
+        ],
+        "explanation": "Stranger Things est une série inspirée des années 80, combinant science-fiction et mystère."
+    },
+    {
+        "question": "Quel réseau social a été fondé par Mark Zuckerberg en 2004 ?",
+        "answers": [
+            { "text": "Instagram", "correct": false },
+            { "text": "Facebook", "correct": true },
+            { "text": "Twitter", "correct": false },
+            { "text": "Snapchat", "correct": false }
+        ],
+        "explanation": "Facebook est devenu le plus grand réseau social du monde."
+    },
+    {
+        "question": "Qui a écrit le roman dystopique 1984 ?",
+        "answers": [
+            { "text": "Aldous Huxley", "correct": false },
+            { "text": "George Orwell", "correct": true },
+            { "text": "Ray Bradbury", "correct": false },
+            { "text": "Jules Verne", "correct": false }
+        ],
+        "explanation": "1984 est un roman dystopique qui explore les thèmes de la surveillance et du totalitarisme."
+    },
+    {
+        "question": "Quel est le nom du vaisseau piloté par Han Solo dans Star Wars ?",
+        "answers": [
+            { "text": "X-Wing", "correct": false },
+            { "text": "Le Faucon Millenium", "correct": true },
+            { "text": "TIE Fighter", "correct": false },
+            { "text": "Destroyer Stellaire", "correct": false }
+        ],
+        "explanation": "Le Faucon Millenium est l'un des vaisseaux les plus emblématiques de la saga Star Wars."
     }
-    // Ajoutez 18 autres questions ici
 ]
