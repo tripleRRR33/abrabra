@@ -26,10 +26,12 @@ function showQuestion() {
     const questionContainer = document.getElementById('question');
     const answersContainer = document.getElementById('answers');
     const timerElement = document.getElementById('time');
+    const timerContainer = document.getElementById('timer');
     const explanationElement = document.getElementById('explanation');
 
     clearInterval(timer);
     timerElement.textContent = 15;
+    timerContainer.classList.remove('low-time');
 
     const currentQuestion = questions[currentQuestionIndex];
     questionContainer.textContent = currentQuestion.question;
@@ -45,6 +47,9 @@ function showQuestion() {
 
     timer = setInterval(() => {
         timerElement.textContent--;
+        if (timerElement.textContent <= 5) {
+            timerContainer.classList.add('low-time');
+        }
         if (timerElement.textContent == 0) {
             clearInterval(timer);
             showExplanation(false, "Temps écoulé !");
