@@ -1,0 +1,23 @@
+[
+    {
+        "question": "Quel est le film le plus rentable de tous les temps, ajusté pour l'inflation ?",
+        "answers": [
+            { "text": "Avatar", "correct": false },
+            { "text": "Avengers: Endgame", "correct": false },
+            { "text": "Autant en emporte le vent", "correct": true },
+            { "text": "Titanic", "correct": false }
+        ],
+        "explanation": "Autant en emporte le vent reste le plus rentable en ajustant à l'inflation."
+    },
+    {
+        "question": "Quel artiste a popularisé le moonwalk ?",
+        "answers": [
+            { "text": "Elvis Presley", "correct": false },
+            { "text": "Michael Jackson", "correct": true },
+            { "text": "Prince", "correct": false },
+            { "text": "James Brown", "correct": false }
+        ],
+        "explanation": "Michael Jackson a rendu le moonwalk célèbre en 1983."
+    }
+    // Ajoutez 18 autres questions ici
+]
