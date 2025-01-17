@@ -4,6 +4,7 @@ fetch('questions.json')
     .then(data => {
         questions = data.sort(() => Math.random() - 0.5); // Mélange des questions
         if (questions.length > 0) {
+            console.log("Questions chargées :", questions); // Message de débogage
             document.getElementById('start-quiz-button').classList.remove('hidden');
         } else {
             console.error("Le fichier questions.json est vide ou mal formaté.");
@@ -41,6 +42,7 @@ function showQuestion() {
 
     const currentQuestion = questions[currentQuestionIndex];
     if (currentQuestion) {
+        console.log("Question actuelle :", currentQuestion); // Message de débogage
         questionContainer.textContent = currentQuestion.question;
         answersContainer.innerHTML = '';
         explanationElement.classList.add('hidden');
