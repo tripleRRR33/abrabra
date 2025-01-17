@@ -78,3 +78,28 @@ h1 {
 .hidden {
     display: none;
 }
+
+#start-quiz-button {
+    background-color: #03dac6;
+    color: #333;
+    border: none;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    max-width: 300px;
+}
+
+#start-quiz-button:hover {
+    background-color: #018786;
+    transform: translateY(-3px);
+}
+
+#start-quiz-button:active {
+    background-color: #01675f;
+    transform: translateY(1px);
+}
