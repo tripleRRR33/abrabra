@@ -9,16 +9,17 @@
 <body>
     <div class="quiz-container">
         <h1>Quiz Culture Générale</h1>
-        <div id="progress-container">
+        <button id="start-quiz-button">Commencer le Quiz</button>
+        <div id="progress-container" class="hidden">
             <div id="progress-bar"></div>
         </div>
-        <div id="question-container">
+        <div id="question-container" class="hidden">
             <h2 id="question">Question ici</h2>
             <div id="answers"></div>
             <p id="timer">Temps restant : <span id="time">15</span> sec</p>
         </div>
         <p id="explanation" class="hidden">Explication ici</p>
-        <div id="score-container">
+        <div id="score-container" class="hidden">
             Score : <span id="score">0</span>
         </div>
     </div>
