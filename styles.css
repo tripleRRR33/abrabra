@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5c011a; /* Rouge bordeaux */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.quiz-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 500px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#progress-container {
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+#progress-bar {
+    background-color: #03dac6;
+    height: 10px;
+    width: 0%;
+    transition: width 0.5s ease;
+}
+
+#question {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#answers button {
+    background-color: #03dac6;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+#answers button:hover {
+    background-color: #018786;
+}
+
+#answers button.correct {
+    background-color: #4caf50 !important;
+}
+
+#answers button.wrong {
+    background-color: #f44336 !important;
+}
+
+#timer {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
