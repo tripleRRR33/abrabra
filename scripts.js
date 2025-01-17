@@ -25,8 +25,12 @@ document.getElementById('start-quiz-button').addEventListener('click', () => {
 });
 
 function startQuiz() {
-    showQuestion();
-    updateProgressBar();
+    if (questions.length > 0) {
+        showQuestion();
+        updateProgressBar();
+    } else {
+        console.error("Les questions ne sont pas encore chargées.");
+    }
 }
 
 function showQuestion() {
