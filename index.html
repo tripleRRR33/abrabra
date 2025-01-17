@@ -7,16 +7,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="quiz-container">
         <h1>Quiz Culture Générale</h1>
-        <div id="quiz-container">
-            <div id="question-container">
-                <h2 id="question">Question ici</h2>
-                <div id="answers"></div>
-            </div>
-            <button id="next-button" class="hidden">Suivant</button>
+        <div id="progress-container">
+            <div id="progress-bar"></div>
         </div>
-        <p id="score-container" class="hidden">Votre score : <span id="score"></span></p>
+        <div id="question-container">
+            <h2 id="question">Question ici</h2>
+            <div id="answers"></div>
+            <p id="timer">Temps restant : <span id="time">15</span> sec</p>
+        </div>
+        <p id="explanation" class="hidden">Explication ici</p>
+        <div id="score-container">
+            Score : <span id="score">0</span>
+        </div>
     </div>
     <script src="scripts.js"></script>
 </body>
