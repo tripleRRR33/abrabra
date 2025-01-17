@@ -3,12 +3,19 @@ fetch('questions.json')
     .then(response => response.json())
     .then(data => {
         questions = data.sort(() => Math.random() - 0.5); // Mélange des questions
-        startQuiz();
     });
 
 let currentQuestionIndex = 0;
 let score = 0;
 let timer;
+
+document.getElementById('start-quiz-button').addEventListener('click', () => {
+    document.getElementById('start-quiz-button').classList.add('hidden');
+    document.getElementById('progress-container').classList.remove('hidden');
+    document.getElementById('question-container').classList.remove('hidden');
+    document.getElementById('score-container').classList.remove('hidden');
+    startQuiz();
+});
 
 function startQuiz() {
     showQuestion();
