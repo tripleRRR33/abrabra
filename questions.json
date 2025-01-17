@@ -198,5 +198,205 @@
             { "text": "Destroyer Stellaire", "correct": false }
         ],
         "explanation": "Le Faucon Millenium est l'un des vaisseaux les plus emblématiques de la saga Star Wars."
+    [
+    {
+        "question": "Quel est le premier film d'animation produit par Disney ?",
+        "answers": [
+            { "text": "Blanche-Neige et les Sept Nains", "correct": true },
+            { "text": "Cendrillon", "correct": false },
+            { "text": "Fantasia", "correct": false },
+            { "text": "Pinocchio", "correct": false }
+        ],
+        "explanation": "Blanche-Neige et les Sept Nains est sorti en 1937 et est le premier long métrage d'animation de Disney."
+    },
+    {
+        "question": "Qui a réalisé le film Inception ?",
+        "answers": [
+            { "text": "Steven Spielberg", "correct": false },
+            { "text": "Christopher Nolan", "correct": true },
+            { "text": "Martin Scorsese", "correct": false },
+            { "text": "Ridley Scott", "correct": false }
+        ],
+        "explanation": "Inception est un film de science-fiction réalisé par Christopher Nolan en 2010."
+    },
+    {
+        "question": "Quelle chanson des Beatles commence par les paroles 'Yesterday, all my troubles seemed so far away' ?",
+        "answers": [
+            { "text": "Hey Jude", "correct": false },
+            { "text": "Yesterday", "correct": true },
+            { "text": "Let It Be", "correct": false },
+            { "text": "Here Comes the Sun", "correct": false }
+        ],
+        "explanation": "Yesterday est l'une des chansons les plus célèbres des Beatles, écrite par Paul McCartney."
+    },
+    {
+        "question": "En quelle année le premier iPhone a-t-il été lancé ?",
+        "answers": [
+            { "text": "2005", "correct": false },
+            { "text": "2007", "correct": true },
+            { "text": "2009", "correct": false },
+            { "text": "2010", "correct": false }
+        ],
+        "explanation": "Apple a révolutionné l'industrie des smartphones avec le lancement de l'iPhone en 2007."
+    },
+    {
+        "question": "Quel peintre a créé l'œuvre 'La Nuit étoilée' ?",
+        "answers": [
+            { "text": "Claude Monet", "correct": false },
+            { "text": "Vincent van Gogh", "correct": true },
+            { "text": "Pablo Picasso", "correct": false },
+            { "text": "Salvador Dalí", "correct": false }
+        ],
+        "explanation": "La Nuit étoilée est une peinture emblématique de Vincent van Gogh, réalisée en 1889."
+    },
+    {
+        "question": "Quel est le nom de la capitale de l’Australie ?",
+        "answers": [
+            { "text": "Sydney", "correct": false },
+            { "text": "Melbourne", "correct": false },
+            { "text": "Canberra", "correct": true },
+            { "text": "Brisbane", "correct": false }
+        ],
+        "explanation": "Canberra, et non Sydney ou Melbourne, est la capitale de l’Australie."
+    },
+    {
+        "question": "Quel joueur de football a remporté le plus grand nombre de Ballons d'Or ?",
+        "answers": [
+            { "text": "Lionel Messi", "correct": true },
+            { "text": "Cristiano Ronaldo", "correct": false },
+            { "text": "Pelé", "correct": false },
+            { "text": "Zinédine Zidane", "correct": false }
+        ],
+        "explanation": "Lionel Messi détient le record avec 7 Ballons d'Or (à 2023)."
+    },
+    {
+        "question": "Quel élément chimique a pour symbole 'O' ?",
+        "answers": [
+            { "text": "Or", "correct": false },
+            { "text": "Oxygène", "correct": true },
+            { "text": "Osmium", "correct": false },
+            { "text": "Ortho", "correct": false }
+        ],
+        "explanation": "Le symbole 'O' correspond à l'élément chimique Oxygène."
+    },
+    {
+        "question": "Quel pays a remporté la Coupe du Monde de la FIFA en 2018 ?",
+        "answers": [
+            { "text": "Allemagne", "correct": false },
+            { "text": "France", "correct": true },
+            { "text": "Brésil", "correct": false },
+            { "text": "Croatie", "correct": false }
+        ],
+        "explanation": "La France a remporté la Coupe du Monde en 2018, battant la Croatie en finale."
+    },
+    {
+        "question": "Dans quel pays peut-on visiter la Tour Eiffel ?",
+        "answers": [
+            { "text": "Allemagne", "correct": false },
+            { "text": "France", "correct": true },
+            { "text": "Italie", "correct": false },
+            { "text": "Espagne", "correct": false }
+        ],
+        "explanation": "La Tour Eiffel est un symbole emblématique de la France, située à Paris."
+    },
+    {
+        "question": "Qui est l'auteur de 'Roméo et Juliette' ?",
+        "answers": [
+            { "text": "Victor Hugo", "correct": false },
+            { "text": "William Shakespeare", "correct": true },
+            { "text": "Molière", "correct": false },
+            { "text": "Charles Dickens", "correct": false }
+        ],
+        "explanation": "'Roméo et Juliette' est une tragédie écrite par William Shakespeare."
+    },
+    {
+        "question": "Quel est le plus grand océan de la planète ?",
+        "answers": [
+            { "text": "Océan Atlantique", "correct": false },
+            { "text": "Océan Indien", "correct": false },
+            { "text": "Océan Pacifique", "correct": true },
+            { "text": "Océan Arctique", "correct": false }
+        ],
+        "explanation": "L'océan Pacifique est le plus vaste, couvrant environ 30 % de la surface terrestre."
+    },
+    {
+        "question": "Quel est le symbole chimique de l'eau ?",
+        "answers": [
+            { "text": "O", "correct": false },
+            { "text": "H2O", "correct": true },
+            { "text": "HO2", "correct": false },
+            { "text": "OH2", "correct": false }
+        ],
+        "explanation": "L'eau est représentée par H2O, composée de deux atomes d'hydrogène et d'un atome d'oxygène."
+    },
+    {
+        "question": "Dans quelle ville se trouve le Colisée ?",
+        "answers": [
+            { "text": "Athènes", "correct": false },
+            { "text": "Rome", "correct": true },
+            { "text": "Istanbul", "correct": false },
+            { "text": "Paris", "correct": false }
+        ],
+        "explanation": "Le Colisée, symbole de l'Empire romain, se trouve à Rome."
+    },
+    {
+        "question": "Quelle planète est surnommée la 'planète rouge' ?",
+        "answers": [
+            { "text": "Vénus", "correct": false },
+            { "text": "Mars", "correct": true },
+            { "text": "Jupiter", "correct": false },
+            { "text": "Mercure", "correct": false }
+        ],
+        "explanation": "Mars est surnommée la 'planète rouge' en raison de la couleur de son sol."
+    },
+    {
+        "question": "Quel animal est le plus rapide sur terre ?",
+        "answers": [
+            { "text": "Le guépard", "correct": true },
+            { "text": "Le lion", "correct": false },
+            { "text": "L'antilope", "correct": false },
+            { "text": "Le léopard", "correct": false }
+        ],
+        "explanation": "Le guépard peut atteindre une vitesse de 110 km/h sur de courtes distances."
+    },
+    {
+        "question": "Dans quelle série trouve-t-on le personnage de Sheldon Cooper ?",
+        "answers": [
+            { "text": "Friends", "correct": false },
+            { "text": "The Big Bang Theory", "correct": true },
+            { "text": "How I Met Your Mother", "correct": false },
+            { "text": "Brooklyn Nine-Nine", "correct": false }
+        ],
+        "explanation": "Sheldon Cooper est un personnage clé de la série The Big Bang Theory."
+    },
+    {
+        "question": "Quel est le plus long fleuve du monde ?",
+        "answers": [
+            { "text": "Le Nil", "correct": false },
+            { "text": "L'Amazone", "correct": true },
+            { "text": "Le Yangtsé", "correct": false },
+            { "text": "Le Mississippi", "correct": false }
+        ],
+        "explanation": "L'Amazone est désormais considéré comme le plus long fleuve du monde, surpassant le Nil."
+    },
+    {
+        "question": "Quel pays est connu comme le pays du Soleil-Levant ?",
+        "answers": [
+            { "text": "Chine", "correct": false },
+            { "text": "Japon", "correct": true },
+            { "text": "Corée du Sud", "correct": false },
+            { "text": "Thaïlande", "correct": false }
+        ],
+        "explanation": "Le Japon est surnommé le pays du Soleil-Levant en raison de sa position géographique."
+    },
+    {
+        "question": "Dans quel sport Michael Jordan a-t-il excellé ?",
+        "answers": [
+            { "text": "Baseball", "correct": false },
+            { "text": "Basketball", "correct": true },
+            { "text": "Football américain", "correct": false },
+            { "text": "Tennis", "correct": false }
+        ],
+        "explanation": "Michael Jordan est considéré comme l'un des meilleurs joueurs de basketball de tous les temps."
     }
 ]
